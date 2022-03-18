@@ -26,6 +26,7 @@ ethereum:
     pollInterval: 5000
   blockStrategy: POLL
   numBlocksToReplay: 12
+  initialStartBlock: ${INITIAL_START_BLOCK}
   sync:
     batchSize: 100000
 
